@@ -35,16 +35,15 @@ Entrepreneurial Founding Engineer and Technical Leader with a 10-year track reco
   * **Interactive Web Client & Plugin SDK:** Built a real-time Next.js web application (`apps/web`) with synchronized seek bars, alongside a typed Plugin SDK (`HJ-OSS-10`, `HJ-OSS-12`).
 * **Pawthy Secrets CLI (`@psl-oss/pawthy` / `kuasha420/purrmission`):** Built and open-sourced a zero-trust developer secret synchronization CLI adopted across multi-repo engineering workflows.
   * Implemented hexagonal architecture with DomainPorts, transactional outbox pattern, Fastify APIs, and Discord approval workflows.
+* **Client Platform Delivery — Sunshine Physio (`sunshine-physio-universalapp`):** Architected and delivered a universal clinical care and triage platform as a fully managed client project of PSL, featuring high-concurrency booking, pain triage workflows, and bilingual localization (English/Bengali) across Next.js and React Native / Expo.
 * **Knot Mesh (`kuasha420/knot-mesh`):** Built a multi-node distributed Linux/Wayland workspace mesh connecting Arch Linux desktop, laptop, and Steam Deck via KRDP virtual monitors, remote PTY execution, and Linda Tuplespace batching.
 
 ---
 
-### **Motion Mechanics** | *Savar, Dhaka*
+### **Motion Mechanics (Purrfect Universe)** | *Savar, Dhaka*
 **Co-Founder & Head of Technology / Operations** • *2024 – 2026*
-* **Clinic Launch & Physical Operations:** Co-founded and launched **Motion Mechanics: Healing Reimagined**—a modern physical rehabilitation clinic on CRP Road in Savar. Directed commercial lease negotiations, clinical facility launch, specialized treatment equipment procurement, and clinical staffing across Neurology, Musculoskeletal (MSK), and Paediatrics.
-* **Digital Healthcare Ecosystem:**
-  * **`mm-website` Platform:** Built a high-performance clinical platform using Next.js 15, Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS. Built custom Google Cloud Platform re-auth wrappers and automated secrets deployment.
-  * **`sunshine-physio-universalapp`:** Engineered a universal clinical care and triage platform featuring high-concurrency appointment scheduling, pain triage workflows, and bilingual ICU localization (English/Bengali) across Next.js and React Native / Expo.
+* **Clinic Launch & Physical Operations:** Co-founded and launched **Motion Mechanics Physiotherapy and Rehabilitation Hub**—a modern outpatient physical rehabilitation clinic and planet of Purrfect Universe on CRP Road in Savar. Directed commercial lease negotiations, clinical space buildout, specialized medical equipment procurement, and clinical team staffing across Neurology, MSK, and Paediatrics.
+* **Digital Healthcare Ecosystem (`mm-website`):** Built the clinic's proprietary operations and booking platform using Next.js 15, Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS. Built custom Google Cloud Platform re-auth wrappers and automated secrets deployment.
 
 ---
 

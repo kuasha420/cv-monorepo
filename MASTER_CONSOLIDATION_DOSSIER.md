@@ -92,12 +92,17 @@
   * **Pawthy CLI (`@psl-oss/pawthy` / `@kuasha420/pawthy`):** Zero-trust developer environment secrets synchronization CLI adopted across every repository at PSL and Motion Mechanics.
   * Hexagonal architecture with DomainPorts, transactional outbox pattern with idempotent state machines, Fastify REST APIs, Discord approval gates, and Passkey/WebAuthn research.
 
-#### 3. Motion Mechanics: Physical Business & HealthTech Web Platform
-* **Physical Business:** Co-founded and operated **Motion Mechanics: Healing Reimagined**—a modern physical rehabilitation clinic on CRP Road in Savar, Dhaka. Managed lease negotiations, specialized treatment plinth procurement, clinical staffing (Neurology, MSK, Paediatrics), and daily financial reconciliation.
-* **`mm-website` (614 commits authored by Arafat / 52.4%):** Full-stack clinical portal built with Next.js 15 (App Router), Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack React Query, and Tailwind CSS. Built custom GCP re-auth wrappers and automated secrets synchronization.
-* **`sunshine-physio-universalapp` (138 commits authored by Arafat / 59.7%):** Universal Clinical Care & Patient Engagement Platform. Turborepo monorepo with Next.js 15, React Native / Expo, backend API, pain triage flow, high-concurrency booking, and bilingual ICU localization (English/Bengali).
+#### 3. Motion Mechanics: Physical Clinic (A Purrfect Universe Planet)
+* **Physical Business:** Co-founded and operated **Motion Mechanics Physiotherapy and Rehabilitation Hub**—a planet of Purrfect Universe on CRP Road in Savar, Dhaka. Managed lease negotiations, clinical space buildout, specialized treatment plinth procurement, clinical staffing (Neurology, MSK, Paediatrics), and daily financial reconciliation.
+* **`mm-website` (614 commits authored by Arafat / 52.4%):** Proprietary full-stack clinical operations and patient booking platform built with Next.js 15 (App Router), Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack React Query, and Tailwind CSS. Built custom GCP re-auth wrappers and automated secrets synchronization.
 
-#### 4. Knot Mesh & Linux Systems Craftsmanship (`kuasha420/knot-mesh` & `purr`)
+#### 4. Managed Client Projects & Software Delivery (Purrfect Software Limited)
+* **Sunshine Physio Platform (`sunshine-physio-universalapp`):** Fully managed client project delivered by PSL. Built a universal clinical care and patient engagement platform across Next.js 15 and React Native / Expo, featuring pain triage workflows, high-concurrency booking, and bilingual ICU localization (English/Bengali) (138 commits authored by Arafat / 59.7%).
+* **Purrfect Download Manager (PDM):** Product vision & architecture oversight (Hands-on code authored by Nazmus Sakib Tamim / 78 commits).
+* **Karnaphuli Jewellery & Dream Emirates Suites:** Technical director / client delivery oversight (Code authored by engineering team: Mamun, Saleh Shakib, Rahat).
+* **PSL Website:** Core monorepo tooling & architecture (29 commits by Arafat; frontends by team).
+
+#### 5. Knot Mesh & Linux Systems Craftsmanship (`kuasha420/knot-mesh` & `purr`)
 * **Knot Mesh (178 commits authored by Arafat / 85.2%):** Distributed multi-node workspace mesh connecting Arch Linux / KDE Plasma 6 Wayland desktop, laptop, and Steam Deck. Implements Wayland Virtual Monitor fabric via KDE Connect and KRDP remote desktop streaming, HiDPI spatial scaling, and PTY remote execution.
 * **Purr Universal App Engine (109 commits authored by Arafat / 94.0%):** Universal application discovery, container hardening (Waydroid/LXC), and priority package installer for Arch Linux.
 * **`mislty`:** Reverse-engineered Linux desktop suite & daemon for Qualcomm MDM9600 4G LTE modems with PipeWire 8kHz PCM audio bridge.

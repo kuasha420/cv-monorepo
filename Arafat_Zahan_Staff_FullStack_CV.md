@@ -36,15 +36,15 @@ Staff-level Full-Stack and Web Platform Architect with 10+ years of experience e
   * **Interactive Web Client & Plugin SDK:** Built a real-time Next.js web application (`apps/web`) with synchronized seek bars, alongside a typed Plugin SDK (`HJ-OSS-10`, `HJ-OSS-12`).
 * **Pawthy Secrets CLI (`@psl-oss/pawthy` / `kuasha420/purrmission`):** Built and open-sourced a zero-trust developer secret synchronization CLI adopted across multi-repo engineering workflows.
   * Engineered with hexagonal architecture (DomainPorts), transactional outbox pattern, Fastify REST APIs, and Discord approval workflows.
+* **Client Platform Delivery — Sunshine Physio (`sunshine-physio-universalapp`):** Architected and delivered a universal clinical care and triage platform as a fully managed client project of PSL, featuring high-concurrency booking, pain triage workflows, and bilingual localization (English/Bengali) across Next.js and React Native / Expo.
 * **Knot Mesh (`kuasha420/knot-mesh`):** Built a multi-node distributed Linux/Wayland workspace mesh connecting Arch Linux desktop, laptop, and Steam Deck via KRDP Wayland virtual monitors, remote PTY execution, and Linda Tuplespace batching.
 
 ---
 
-### **Motion Mechanics** | *Savar, Dhaka*
+### **Motion Mechanics (Purrfect Universe)** | *Savar, Dhaka*
 **Head of Technology & Platform Architect (Co-Founder)** • *2024 – 2026*
-* Co-founded an outpatient physical rehabilitation clinic in Savar, architecting its end-to-end digital clinical platform while co-managing operational facility launch.
-* **`mm-website` Clinical Platform:** Engineered high-performance clinical platform using Next.js 15, Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS. Built custom Google Cloud Platform re-auth wrappers and automated secrets deployment.
-* **`sunshine-physio-universalapp`:** Engineered a universal clinical care and triage platform featuring high-concurrency appointment scheduling, pain triage workflows, and bilingual localization (English/Bengali) across Next.js and React Native / Expo.
+* Co-founded **Motion Mechanics Physiotherapy and Rehabilitation Hub**—a modern outpatient clinic and planet of Purrfect Universe in Savar—architecting its end-to-end digital clinical platform while co-managing operational facility launch.
+* **`mm-website` Clinical Platform:** Engineered the clinic's proprietary operations and scheduling platform using Next.js 15, Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS. Built custom Google Cloud Platform re-auth wrappers and automated secrets deployment.
 
 ---
 
