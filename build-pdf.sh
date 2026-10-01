@@ -34,7 +34,8 @@ build_pdf() {
     fi
 }
 
-build_pdf "index.html" "Arafat_Zahan_Master_CV.pdf"
+build_pdf "curriculum-vitae.html" "Arafat_Zahan_Curriculum_Vitae.pdf"
+build_pdf "systems-architect.html" "Arafat_Zahan_Systems_Architect_CV.pdf"
 build_pdf "staff-fullstack.html" "Arafat_Zahan_Staff_FullStack_CV.pdf"
 build_pdf "founding-engineer.html" "Arafat_Zahan_Founding_Engineer_CV.pdf"
 

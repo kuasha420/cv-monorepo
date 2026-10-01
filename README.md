@@ -8,7 +8,7 @@
 
 ## 📌 Overview
 
-This repository hosts the source markdown, semantic HTML print templates, and compiled vector PDFs for Arafat Zahan's CV variants. Each variant is tailored for specific engineering leadership and technical roles, strictly formatted to fit an exact 2-page A4 layout without browser headers or trailing whitespace.
+This repository hosts the source markdown, semantic HTML print templates, and compiled vector PDFs for Arafat Zahan's career documents. It includes an **unrestricted, comprehensive Curriculum Vitae** capturing 10+ years of engineering without artificial page or word limits, alongside three **tailored, exact 2-page A4 CVs** engineered for specific technical leadership profiles.
 
 ---
 
@@ -16,32 +16,36 @@ This repository hosts the source markdown, semantic HTML print templates, and co
 
 ```text
 .
-├── MASTER_CONSOLIDATION_DOSSIER.md       # Master career history and architectural records
+├── CAREER_DOSSIER.md                     # Single source of truth career records
 │
-├── Arafat_Zahan_Master_CV.md             # Markdown: Principal Systems Architect
-├── Arafat_Zahan_Staff_FullStack_CV.md    # Markdown: Staff Full-Stack & Web Platform
-├── Arafat_Zahan_Founding_Engineer_CV.md  # Markdown: Founding Engineer / Head of Eng
+├── Arafat_Zahan_Curriculum_Vitae.md      # Unrestricted Comprehensive CV (Multi-page)
+├── Arafat_Zahan_Systems_Architect_CV.md  # 2-Page CV: Principal Systems Architect
+├── Arafat_Zahan_Staff_FullStack_CV.md    # 2-Page CV: Staff Full-Stack & Web Platform
+├── Arafat_Zahan_Founding_Engineer_CV.md  # 2-Page CV: Founding Engineer / Head of Eng
 │
-├── index.html                            # Master CV print-ready HTML/CSS template
-├── staff-fullstack.html                  # Staff Full-Stack HTML/CSS template
-├── founding-engineer.html                # Founding Engineer HTML/CSS template
+├── curriculum-vitae.html                 # Comprehensive CV print-ready HTML template
+├── systems-architect.html                # Systems Architect print-ready HTML template
+├── staff-fullstack.html                  # Staff Full-Stack HTML template
+├── founding-engineer.html                # Founding Engineer HTML template
 │
-├── Arafat_Zahan_Master_CV.pdf            # Compiled Vector PDF (2 pages A4)
-├── Arafat_Zahan_Staff_FullStack_CV.pdf    # Compiled Vector PDF (2 pages A4)
-├── Arafat_Zahan_Founding_Engineer_CV.pdf # Compiled Vector PDF (2 pages A4)
+├── Arafat_Zahan_Curriculum_Vitae.pdf     # Vector PDF: Comprehensive (4 pages)
+├── Arafat_Zahan_Systems_Architect_CV.pdf # Vector PDF: Systems Architect (2 pages A4)
+├── Arafat_Zahan_Staff_FullStack_CV.pdf   # Vector PDF: Staff Full-Stack (2 pages A4)
+├── Arafat_Zahan_Founding_Engineer_CV.pdf # Vector PDF: Founding Engineer (2 pages A4)
 │
 └── build-pdf.sh                          # Headless Chrome PDF compilation script
 ```
 
 ---
 
-## 🎯 Targeted CV Profiles
+## 🎯 CV Profiles & Deliverables
 
-| Profile | Focus Area | Target Roles | PDF Deliverable |
-| :--- | :--- | :--- | :--- |
-| **Master CV** | Comprehensive systems architecture, Google Site Kit leadership, Jasper media infrastructure, clinic co-founding, and open source. | Principal Systems Architect, Lead Architect, Staff Engineer | [`Arafat_Zahan_Master_CV.pdf`](./Arafat_Zahan_Master_CV.pdf) |
-| **Staff Full-Stack** | Web platform architecture, Next.js 15, Turborepo, tRPC, React Native, Node.js microservices, distributed sharding. | Staff Software Engineer, Platform Architect, Lead Full-Stack | [`Arafat_Zahan_Staff_FullStack_CV.pdf`](./Arafat_Zahan_Staff_FullStack_CV.pdf) |
-| **Founding Engineer** | 0-to-1 startup execution, physical clinic operations, paperless clinical platforms, real-time media systems, high agency. | Founding Engineer, Head of Engineering, CTO, Core Startup Team | [`Arafat_Zahan_Founding_Engineer_CV.pdf`](./Arafat_Zahan_Founding_Engineer_CV.pdf) |
+| Profile | Focus Area | Format | PDF Deliverable |
+| :--- | :--- | :---: | :--- |
+| **Curriculum Vitae (Comprehensive)** | Complete, unrestricted career dossier across all systems, architectural milestones, open source, education, and life achievements. | Multi-Page Vector PDF (4 Pages) | [`Arafat_Zahan_Curriculum_Vitae.pdf`](./Arafat_Zahan_Curriculum_Vitae.pdf) |
+| **Systems Architect** | Systems architecture, Google Site Kit leadership, Jasper media infrastructure, clinic co-founding, and open source. | Exact 2 Pages A4 | [`Arafat_Zahan_Systems_Architect_CV.pdf`](./Arafat_Zahan_Systems_Architect_CV.pdf) |
+| **Staff Full-Stack** | Web platform architecture, Next.js 15, Turborepo, tRPC, React Native, Node.js microservices, distributed sharding. | Exact 2 Pages A4 | [`Arafat_Zahan_Staff_FullStack_CV.pdf`](./Arafat_Zahan_Staff_FullStack_CV.pdf) |
+| **Founding Engineer** | 0-to-1 startup execution, physical clinic operations, paperless clinical platforms, real-time media systems, hands-on leadership. | Exact 2 Pages A4 | [`Arafat_Zahan_Founding_Engineer_CV.pdf`](./Arafat_Zahan_Founding_Engineer_CV.pdf) |
 
 ---
 
@@ -57,10 +61,11 @@ This repository hosts the source markdown, semantic HTML print templates, and co
   - Designed "One Mind, Many Bodies" architecture with Automatic Feline Rotation (AFR) for concurrent multi-channel playback.
   - Architected distributed sharding (`HJ-OSS-11`), per-guild leases (`HJ-OSS-04`), and **Hosted Jasper** (logically multi-tenant SaaS control plane for zero-devops community onboarding).
   - Built interactive Next.js web application (`apps/web`) with synchronized audio scrubbers, and a typed Plugin SDK.
-- **Motion Mechanics Digital Healthcare:**
+- **Motion Mechanics Physiotherapy & Rehabilitation Hub (Purrfect Universe Planet):**
   - Co-founded modern physical rehabilitation clinic on CRP Road in Savar; directed facility launch, specialized medical equipment procurement, and clinical team staffing across Neurology, MSK, and Paediatrics.
-  - Built full-stack clinical platform (`mm-website`) with Next.js 15, Turborepo, tRPC, Prisma, and PostgreSQL.
-  - Built universal clinical care and triage platform (`sunshine-physio-universalapp`) with Next.js and React Native / Expo.
+  - Built proprietary clinic platform (`mm-website`) with Next.js 15, Turborepo, tRPC, Prisma, and PostgreSQL.
+- **Sunshine Physio (`sunshine-physio-universalapp`) (PSL Client Project):**
+  - Built universal clinical care and triage platform across Next.js and React Native / Expo with bilingual support (English/Bengali).
 - **Pawthy Secrets CLI (`@psl-oss/pawthy`):**
   - Zero-trust developer secret synchronization CLI built with hexagonal architecture, transactional outbox pattern, and Fastify REST APIs.
 - **Open-Source NPM Packages:**
@@ -71,16 +76,12 @@ This repository hosts the source markdown, semantic HTML print templates, and co
 
 ---
 
-## 🖨️ Building the PDFs
+## 🛠️ PDF Compilation
 
-PDFs are rendered from semantic HTML5 + CSS Paged Media (`@page { size: A4; margin: 12mm 14mm; }`) using headless Google Chrome (`--no-pdf-header-footer`):
+PDFs are compiled via headless Google Chrome using `./build-pdf.sh`:
 
 ```bash
 ./build-pdf.sh
 ```
 
----
-
-## 📜 License & Copyright
-
-Copyright © 2026 Arafat Zahan. All rights reserved.
+Each 2-page variant is calibrated to fit an exact 2-page budget, while the comprehensive Curriculum Vitae flows naturally across pages.

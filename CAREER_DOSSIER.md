@@ -1,4 +1,4 @@
-# Master Career & Life Dossier: Arafat Zahan
+# Comprehensive Career Dossier: Arafat Zahan
 
 > **Single Source of Truth (SSOT)** for resume generation, portfolio positioning, and technical interview alignment.  
 > **Compiled:** October 2026  
