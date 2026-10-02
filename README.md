@@ -2,7 +2,7 @@
 
 > **Principal Systems Architect / Founding Engineer**  
 > Savar, Dhaka, Bangladesh (UTC+6) • [kuasha420@gmail.com](mailto:kuasha420@gmail.com) • [+880 1841 832 034](tel:+8801841832034)  
-> Website: [kuasha.xyz](https://kuasha.xyz) • GitHub: [@kuasha420](https://github.com/kuasha420) • Portfolio: [kuasha420.github.io](https://kuasha420.github.io)
+> Website: [kuasha.xyz](https://kuasha.xyz) • GitHub: [@kuasha420](https://github.com/kuasha420) • LinkedIn: [linkedin.com/in/arafat-zahan-a03502394](https://www.linkedin.com/in/arafat-zahan-a03502394/) • Portfolio: [kuasha420.github.io](https://kuasha420.github.io)
 
 ---
 
@@ -57,19 +57,20 @@ This repository hosts the source markdown, semantic HTML print templates, and co
   - Authored technical design docs approved by Google engineering leadership: *User Input v2* and *Ad Blocking Recovery*.
   - Formulated team-wide *Mid-Point Review* process; awarded the **10up Summit "Uppie" Award** (Reykjavik, Iceland, 2023) for engineering excellence.
 - **Jasper Media Platform (`sakibtamim/Jasper`):**
-  - Solved audio stream dropouts and YouTube 403 throttling with an externalized daemon integrating `yt-dlp` and `FFmpeg`.
+  - Solved audio stream dropouts (>90% reduction in stream dropouts and throttling) with an externalized daemon integrating `yt-dlp` and `FFmpeg`.
   - Architected distributed sharding, per-guild concurrency leases, and **Hosted Jasper** (logically multi-tenant SaaS control plane for zero-DevOps community onboarding).
   - Built interactive Next.js web application (`apps/web`) with synchronized seek bars, and a typed Plugin SDK.
 - **Motion Mechanics Physiotherapy & Rehabilitation Hub:**
-  - Co-founded modern physical rehabilitation clinic on CRP Road in Savar; co-managed facility launch, specialized medical equipment procurement, and clinical team staffing across Neurology, MSK, and Paediatrics.
+  - Co-founded modern physical rehabilitation clinic on CRP Road in Savar; co-managed facility launch, specialized medical equipment procurement, and clinical team staffing (18-person multi-disciplinary team) across Neurology, MSK, and Paediatrics.
   - Built proprietary clinic platform (`mm-website`) with Next.js 15, Turborepo, tRPC, Prisma ORM, and PostgreSQL.
 - **Sunshine Physio (`purrfectsoft/sunshine-physio-webapp`):**
   - Fully managed client project of Purrfect Software Limited. Lead Frontend Engineer architecting clinical triage workflows and appointment scheduling across Next.js 16 web and React Native / Expo mobile with bilingual localization (English/Bengali).
 - **Pawthy Secrets CLI (`@psl-oss/pawthy`):**
-  - Zero-trust developer secret synchronization CLI built with hexagonal architecture, transactional outbox pattern, Fastify REST APIs, and Discord approval webhooks.
+  - Zero-trust developer secret synchronization CLI built with hexagonal architecture, transactional outbox pattern, Fastify REST APIs, and Discord approval webhooks. Adopted across all internal monorepos.
 - **Published Open-Source Libraries (~7.5k Monthly npm Downloads):**
   - `react-native-paper-phone-number-input`: ~4,100 dl/mo
   - `react-native-paper-toast`: ~2,140 dl/mo
+  - `react-native-immersive-bars`: ~570 dl/mo
   - `react-native-paper-alerts`: ~520 dl/mo
   - `mst-persistent-store`: ~240 dl/mo
   - `antigravity-manager-bin`: Arch Linux AUR package maintainer
