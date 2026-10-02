@@ -64,11 +64,10 @@ Entrepreneurial Founding Engineer and Technical Leader with 6+ years of professi
 
 ---
 
-## Published Open-Source Libraries (~7.5k Monthly npm Downloads)
+## Published Open-Source Libraries (~7k Monthly npm Downloads)
 
 * **`react-native-paper-phone-number-input`:** International phone number input with search modal and flag picker (~4,100/mo npm).
 * **`react-native-paper-toast`:** Imperative toast notifications component integrated with Material Design / React Native Paper (~2,140/mo npm).
-* **`react-native-immersive-bars`:** Android navigation bar transparency component for immersive edge-to-edge layouts (~570/mo npm).
 * **`react-native-paper-alerts`:** Cross-platform imperative alert and confirm modal dialogs for iOS, Android, and Web (~520/mo npm).
 * **`mst-persistent-store`:** Persistent MobX-State-Tree store provider and custom hooks for React & React Native (~240/mo npm).
 * **`antigravity-manager-bin`:** AUR package maintainer for Antigravity desktop tools (Arch Linux AUR).

@@ -67,10 +67,9 @@ This repository hosts the source markdown, semantic HTML print templates, and co
   - Fully managed client project of Purrfect Software Limited. Lead Frontend Engineer architecting clinical triage workflows and appointment scheduling across Next.js 16 web and React Native / Expo mobile with bilingual localization (English/Bengali).
 - **Pawthy Secrets CLI (`@psl-oss/pawthy`):**
   - Zero-trust developer secret synchronization CLI built with hexagonal architecture, transactional outbox pattern, Fastify REST APIs, and Discord approval webhooks. Adopted across all internal monorepos.
-- **Published Open-Source Libraries (~7.5k Monthly npm Downloads):**
+- **Published Open-Source Libraries (~7k Monthly npm Downloads):**
   - `react-native-paper-phone-number-input`: ~4,100 dl/mo
   - `react-native-paper-toast`: ~2,140 dl/mo
-  - `react-native-immersive-bars`: ~570 dl/mo
   - `react-native-paper-alerts`: ~520 dl/mo
   - `mst-persistent-store`: ~240 dl/mo
   - `antigravity-manager-bin`: Arch Linux AUR package maintainer
