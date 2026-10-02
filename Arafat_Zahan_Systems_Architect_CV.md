@@ -1,86 +1,82 @@
 # Arafat Zahan
-**Principal Systems Architect / Founding Engineer**
+**Senior Software Engineer & Systems Architect**
 
-📍 Savar, Dhaka, Bangladesh • 📧 [kuasha420@gmail.com](mailto:kuasha420@gmail.com) • 📞 +880 1841 832 034  
-🌐 [kuasha.xyz](https://kuasha.xyz) • 🐙 [github.com/kuasha420](https://github.com/kuasha420) • 💼 [Portfolio](https://kuasha420.github.io)
+Savar, Dhaka, Bangladesh (UTC+6) • kuasha420@gmail.com • +880 1841 832 034  
+Website: [kuasha.xyz](https://kuasha.xyz) • GitHub: [github.com/kuasha420](https://github.com/kuasha420) • npm: [npmjs.com/~kuasha420](https://www.npmjs.com/~kuasha420)
 
 ---
 
 ## Professional Summary
 
-Full-stack systems architect and founding engineer with 10+ years of experience designing and scaling web platforms, distributed services, and zero-to-one operational ventures. Former senior technical lead on **Google Site Kit** at 10up, authoring technical design documents approved by Google engineering leadership and shipping 230+ production pull requests to an ecosystem active on **3M+ websites worldwide**. Lead architect behind **Jasper**, designing a dual-engine architecture spanning a resilient multi-bot streaming engine ("One Mind, Many Bodies" with Automatic Feline Rotation) and **Hosted Jasper**, a logically multi-tenant SaaS control plane delivering zero-token, zero-devops onboarding. Co-founder of an outpatient physical rehabilitation clinic, bridging physical facility launch with a paperless clinical software platform. Deep technical depth across TypeScript, React, Next.js 15, Node.js microservices, PostgreSQL, and Linux infrastructure.
+Senior Software Engineer and Systems Architect with 6+ years of professional engineering experience (building software since 2012). Proven track record leading engineering on software powering 3M+ active production websites, architecting distributed media streaming pipelines, and developing full-stack clinical healthcare platforms. Core technical expertise across TypeScript, React, Next.js, Node.js microservices, PostgreSQL, and Linux infrastructure.
 
 ---
 
 ## Core Technical Competencies
 
-* **Languages & Runtimes:** TypeScript, JavaScript (ESNext), Python, PHP, Rust, Shell/Bash, C/C++, SQL
-* **Frontend & Web Platform:** React, Next.js 15 (App Router, Server Components, SSR), Turborepo, tRPC, TanStack Query, TanStack Table, Tailwind CSS
-* **Mobile & Cross-Platform:** React Native, Expo, React Native Paper, React Navigation, Native WebView Bridges
-* **Backend & Distributed Systems:** Node.js (Fastify, Express), Hexagonal Architecture (DomainPorts), Transactional Outbox Pattern, Distributed Sharding, Concurrency Leases, Multi-Tenant Control Planes
-* **Databases & Data Storage:** PostgreSQL, MySQL, Prisma ORM, Redis, Checksum-tracked Migrations, SQLite
-* **Systems, Linux & DevOps:** Linux Systems (Arch Linux, KDE Plasma 6 Wayland, systemd, PipeWire, KRDP), Docker, GitHub Actions CI/CD, GCP, RHCE Certified
-* **Testing & Quality:** Jest, React Testing Library, PHPUnit, Puppeteer, BackstopJS Visual Regression Testing (VRT), E2E Automation
+* **Languages & Runtimes:** TypeScript, JavaScript (ESNext, Node.js), Python, PHP, Shell/Bash, SQL
+* **Frontend & Web Platform:** React (18/19), Next.js (15/16 App Router, Server Components), Turborepo, tRPC, TanStack Query & Table, Tailwind CSS
+* **Mobile & Cross-Platform:** React Native, Expo, React Native Paper, React Navigation, Native Android Bridges
+* **Backend & Distributed Systems:** Node.js (Fastify, Express), Hexagonal Architecture, Transactional Outbox Pattern, Concurrency Leases, Sharding, REST APIs, WebSockets
+* **Databases & Data Storage:** PostgreSQL, MySQL, Prisma ORM, Drizzle ORM, Redis (caching, leases), Checksum Migrations, SQLite
+* **Systems, Linux & DevOps:** Arch Linux, systemd daemons, PipeWire, Docker, GitHub Actions CI/CD, Google Cloud Platform (GCP)
+* **Testing & Quality:** Jest, React Testing Library, PHPUnit, Playwright, BackstopJS Visual Regression Testing (VRT)
+* **Spoken Languages:** English (Professional working proficiency), Bengali (Native)
 
 ---
 
 ## Professional Experience
 
-### **Purrfect Software Limited / Purrfect Universe** | *Remote / London, UK & Dhaka*
-**Lead Systems Architect & Co-Founder** • *2024 – Present*
-* **Jasper Dual-Engine Audio Platform (`sakibtamim/Jasper`):** Spearheaded architecture and core engineering for a high-resilience Discord media platform and its multi-tenant SaaS evolution.
-  * **Media Streaming Engine:** Solved persistent audio dropouts and YouTube 403 Forbidden rate limits by engineering an externalized daemon integrating `yt-dlp` and `FFmpeg`.
-  * **"One Mind, Many Bodies" Architecture:** Designed Automatic Feline Rotation (AFR) and worker coordination, enabling multiple bot personas to join different voice channels concurrently under a unified controller.
-  * **Distributed Sharding & Concurrency:** Architected distributed sharding, runtime identity, and graceful drain contracts (`HJ-OSS-11`), alongside per-guild AFR leases (`HJ-OSS-04`) to decouple gateway intents from worker execution.
-  * **Hosted Jasper SaaS Control Plane:** Designed the logically multi-tenant operating profile enabling Discord communities to onboard with zero tokens and zero infrastructure, while keeping open-source self-hosting first-class.
-  * **Interactive Web Client & Plugin SDK:** Built a real-time Next.js web application (`apps/web`) with synchronized seek bars and cross-client playback, alongside a typed Plugin SDK (`HJ-OSS-10`, `HJ-OSS-12`).
-* **Pawthy Secrets CLI & Purrmission (`kuasha420/purrmission`):** Built and open-sourced **Pawthy** (`@psl-oss/pawthy`), a zero-trust developer secret synchronization CLI adopted across multi-repo engineering workflows.
-  * Implemented hexagonal architecture with DomainPorts, transactional outbox pattern, Fastify REST APIs, and Discord approval gates.
-* **Client Platform Delivery — Sunshine Physio (`sunshine-physio-universalapp`):** Architected and delivered a universal clinical care and triage platform as a fully managed client project of PSL, featuring high-concurrency booking, pain triage workflows, and bilingual localization (English/Bengali) across Next.js and React Native / Expo.
-* **Knot Mesh (`kuasha420/knot-mesh`):** Built a multi-node distributed Linux/Wayland workspace mesh connecting Arch Linux desktop, laptop, and Steam Deck via KRDP Wayland virtual monitors, remote PTY execution, and Linda Tuplespace batching.
+### Purrfect Software Limited
+**Co-Founder & Head of Engineering** | *Remote / Dhaka, Bangladesh* | **Jan 2024 – Present**
+* **Jasper Media Platform (`sakibtamim/Jasper`):** Architected a resilient distributed audio streaming pipeline utilizing an externalized `yt-dlp` and `FFmpeg` daemon, eliminating stream dropouts and 403 throttling errors; implemented automated worker failover and concurrency lease coordination across voice channels.
+* **Hosted Jasper SaaS Control Plane:** Designed a logically multi-tenant SaaS control plane allowing community Discord servers to self-onboard with zero DevOps configuration. Engineered per-guild concurrency leases, distributed worker sharding, gateway intent isolation, and graceful worker drain contracts for zero-interruption deployments.
+* **Web Client & Plugin Ecosystem:** Built an interactive Next.js web application (`apps/web`) with synchronized seek bars and track scrubbing, backed by a typed Plugin SDK and checksum-tracked PostgreSQL migrations.
+* **Pawthy Secrets CLI (`@psl-oss/pawthy`):** Authored and open-sourced a zero-trust developer secret synchronization CLI adopted across team repositories. Implemented with hexagonal architecture, transactional outbox pattern, Fastify REST APIs, and Discord interactive approval webhooks.
+
+### Motion Mechanics Physiotherapy & Rehabilitation Hub
+**Co-Founder (Operations & Technology)** | *Savar, Dhaka, Bangladesh* | **Jan 2024 – Present**
+* **Clinic Launch & Physical Operations:** Co-founded an outpatient physical rehabilitation clinic located on CRP Road in Savar. Managed commercial lease negotiations, clinical space buildout, specialized medical hardware procurement (traction units, electrotherapy, treatment plinths), and clinical team staffing across Neurology, MSK, and Paediatrics.
+* **`mm-website` Clinical Platform:** Architected and implemented a full-stack clinical operations and patient scheduling platform using Next.js 15, Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS.
+* **Cloud Infrastructure:** Engineered custom Google Cloud Platform service account re-authentication wrappers and automated secrets deployment.
+
+### Client Projects & Linux Systems
+**Lead Frontend Engineer & Systems Architect** | *Remote / Savar, Dhaka* | **Jan 2024 – Present**
+* **Sunshine Physio Platform (`purrfectsoft/sunshine-physio-webapp`):** Lead Frontend Engineer on active client engagement. Architecting clinical triage workflows and appointment scheduling across Next.js 16 web and React Native / Expo mobile with bilingual localization (English/Bengali).
+* **Knot Mesh Linux Workspace (`kuasha420/knot-mesh`):** Distributed multi-node Linux/Wayland workspace mesh connecting Arch Linux desktop, laptop, and Steam Deck via KRDP virtual display streaming, remote PTY execution, and automated batching.
+* **Qualcomm 4G LTE Linux Modem Daemon (`mislty`):** Reverse-engineered Linux desktop daemon for Qualcomm MDM9600 modems with PipeWire 8kHz narrowband cellular voice bridge native to baseband hardware.
+
+### 10up
+**Senior JavaScript Engineer (React / Full-Stack) — Google Site Kit Lead** | *Remote (Global)* | **Aug 2021 – Sep 2024**
+* **Core Google Partnership:** Partnered directly with Google engineering leadership on **Site Kit by Google** (`google/site-kit-wp`), Google’s official WordPress plugin active on **3,000,000+ production websites**.
+* **Pull Request Authoring:** Authored **236 merged pull requests** in Google's upstream repository across Google Analytics 4 (GA4), Reader Revenue Manager, AdSense, and Search Console.
+* **Site Kit: User Input v2 Design Document:** Authored technical design document approved by Felix Arntz (Tech Lead, Google), Mariya Moeva (Lead PM, Google), and Evan Mattson (Associate Director of Engineering, 10up). Engineered local state persistence, asynchronous datastore syncing, inline editing, and Key Metrics dashboard integration.
+* **Site Kit: Ad Blocking Recovery (ABR) Design Document:** Authored technical design document approved by Google PM and 10up engineering leadership. Specified and implemented AdSense ABR tags, automated snippet injection, publisher messaging, and BackstopJS Visual Regression Testing.
+* **Existing Tags Simplification (ETS) Epic:** Unified tag detection and validation across GA4, Tag Manager, and AdSense using decoupled store factories (`createExistingTagStore`).
+* **Process Innovation & Recognition:** Created team-wide "Mid-Point Review" process officially adopted across 10up's Site Kit workflow to minimize PR churn. Awarded the **10up Summit "Uppie" Award** (Reykjavik, Iceland, May 2023) for engineering excellence. Appointed technical orientation buddy for incoming software engineers.
+
+### Star IT Limited & Aladdin Studios
+**JavaScript Engineer (React Native & Node.js) / Founder (Aladdin Studios)** | *Dhaka, Bangladesh* | **Feb 2020 – Aug 2021**
+* **Priyojon Care Telemedicine Suite:** Engineered complete telemedicine platform connecting patients with verified medical doctors for real-time video consultations, electronic prescription delivery, and home healthcare provider dispatch across React Native mobile apps and Node.js REST APIs.
+* **Farazi Homecare:** Built medical homecare mobile client for on-demand nursing and physiotherapy dispatch.
+* **Bismillah Matrimonial:** Developed cross-platform mobile matchmaking application with biometric authentication and candidate search.
+* **Enterprise Management Platforms:** Developed frontend and API services for `starnet` (ISP management), `irent` (property accounting), and `iBOSCRM`.
 
 ---
 
-### **Motion Mechanics (Purrfect Universe)** | *Savar, Dhaka*
-**Co-Founder & Head of Technology / Operations** • *2024 – 2026*
-* **Clinic Launch & Physical Operations:** Co-founded and launched **Motion Mechanics Physiotherapy and Rehabilitation Hub**—a modern outpatient rehabilitation clinic and planet of Purrfect Universe on CRP Road in Savar. Directed commercial lease negotiations, clinical space buildout, specialized medical equipment procurement, and clinical team staffing across Neurology, MSK, and Paediatrics.
-* **`mm-website` Clinical Platform:** Built the clinic's proprietary operations, appointment scheduling, and patient records platform using Next.js 15, Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS. Built custom Google Cloud Platform re-auth wrappers and automated secrets deployment.
+## Published Open-Source Libraries (~7.5k Monthly npm Downloads)
 
----
-
-### **10up, Inc. / LLC** | *Remote (Roseville, CA & New York, NY)*
-**Senior JavaScript Engineer: React (Google Site Kit)** • *August 2021 – September 2024*
-* Technical lead engineer partnering directly with **Google** on **Site Kit by Google** (`google/site-kit-wp`), Google’s official WordPress plugin active on **3M+ production websites worldwide**.
-* **High-Impact Engineering Delivery:** Authored and merged **236 production pull requests** directly into Google’s repository across Google Analytics 4 (GA4), Reader Revenue Manager (RRM), AdSense, and Search Console.
-* **Technical Design Documents (Approved by Google Engineering Leadership):**
-  * **User Input v2:** Approved by Felix Arntz (Google Tech Lead) and Mariya Moeva (Google Lead PM). Redesigned Site Kit’s user goal-alignment questionnaire, state persistence, inline question editing, and personalized Key Metrics dashboard integration.
-  * **Ad Blocking Recovery (ABR):** Approved by Google PM and 10up Engineering Leadership. Architected end-to-end AdSense recovery tag placement, error-protection script injection, publisher onboarding, and Visual Regression Testing (VRT).
-* **Architecture & Standards:** Unified cross-product tag detection in the Existing Tags Simplification epic, decoupling tag parsing into reusable store factories (`createExistingTagStore`).
-* **Engineering Process Leadership:** Created the team-wide **"Mid-Point Review"** process officially adopted across 10up's Site Kit workflow to minimize PR churn; awarded the **10up Summit "Uppie" Award** (Reykjavik, Iceland, 2023) for engineering excellence.
-
----
-
-### **Star IT Limited / Aladdin Studios** | *Dhaka, Bangladesh*
-**JavaScript Engineer (React Native & Node.js) / Founder (Aladdin Studios)** • *February 2020 – August 2021*
-* Led engineering across **28 production repositories** spanning telemedicine, e-commerce, and enterprise ERP/CRM.
-* **Priyojon Care Telemedicine Suite:** Built `priyojon-app`, `priyojon-serviceapp`, and `priyojon-firebase`, providing live doctor-patient consultations, electronic health records, and emergency dispatch.
-* Authored open-source libraries (`react-native-paper-toast`, `react-native-paper-alerts`, `barikoi-unified`), which led directly to inbound recruitment by 10up's engineering leadership.
-
----
-
-## Notable Open-Source Work
-
-* **`react-native-paper-phone-number-input`:** Standard international phone number input with search and validation (~**4,100 downloads/month** on npm).
-* **`react-native-paper-toast`:** Imperative toast notifications component integrated with Material Design / React Native Paper (~**2,140 downloads/month** on npm).
+* **`react-native-paper-phone-number-input`:** International phone number input with search modal and flag picker (~**4,100 downloads/month** on npm).
+* **`react-native-paper-toast`:** Imperative toast notifications component integrated with React Native Paper (~**2,140 downloads/month** on npm).
 * **`react-native-paper-alerts`:** Cross-platform imperative alert and confirm modal dialogs (~**520 downloads/month** on npm).
 * **`mst-persistent-store`:** Persistent MobX-State-Tree store provider and custom hooks (~**240 downloads/month** on npm).
-* **`jimha` (`kuasha420/jimha`):** Fullscreen tactile sensory game in Python/evdev that intercepts raw Linux keyboard input to protect host systems while entertaining toddlers.
+* **`antigravity-manager-bin`:** AUR package maintainer for Antigravity desktop tools.
+* **`jimha` (`kuasha420/jimha`):** Linux evdev input interceptor for child hardware isolation.
 
 ---
 
-## Education & Certifications
+## Education & Professional Technical Training
 
-* **Savar Digital Polytechnic Institute, Dhaka** — **Diploma in Computer Technology** (4-Year Engineering Diploma, Conferred 2017)
-* **European University of Bangladesh, Dhaka** — **B.Sc. in Computer Science & Engineering** (Completed 60% of coursework covering algorithms, data structures, and systems; paused to focus on engineering delivery and family education)
-* **Red Hat Certified Engineer (RHCE)** — IT Bangla Limited (2018)
-* **Cisco Certified Network Associate (CCNA)** — IT Bangla Limited (2017)
+* **Diploma in Computer Technology (4-Year Engineering Diploma)** — Savar Digital Polytechnic Institute, Dhaka | **Conferred 2017**
+* **B.Sc. in Computer Science & Engineering (for Diploma Holders)** — European University of Bangladesh | **6 of 10 Semesters Completed** (Paused studies to prioritize full-time software engineering and family commitments)
+* **Professional Systems & Network Training (RHCE & CCNA Curriculum)** — IT Bangla Limited | **2017 – 2018**

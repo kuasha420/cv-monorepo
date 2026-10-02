@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Arafat Zahan - Curriculum Vitae (Comprehensive Career Dossier)</title>
+  <title>Arafat Zahan - Curriculum Vitae</title>
   <style>
     @page {
       size: A4;
-      margin: 14mm 16mm;
+      margin: 12mm 15mm;
       @bottom-right {
         content: counter(page) " / " counter(pages);
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -21,8 +21,8 @@
     }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 9.3pt;
-      line-height: 1.45;
+      font-size: 9.1pt;
+      line-height: 1.42;
       color: #1e293b;
       background: #ffffff;
       padding: 0;
@@ -36,23 +36,23 @@
     }
     .header {
       border-bottom: 2px solid #0f172a;
-      padding-bottom: 6px;
-      margin-bottom: 12px;
+      padding-bottom: 5px;
+      margin-bottom: 9px;
     }
     .name-title {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 3px;
+      margin-bottom: 2px;
     }
     .name {
-      font-size: 20pt;
+      font-size: 19pt;
       font-weight: 800;
       color: #0f172a;
       letter-spacing: -0.5px;
     }
     .title {
-      font-size: 11pt;
+      font-size: 10.5pt;
       font-weight: 600;
       color: #0284c7;
     }
@@ -60,52 +60,45 @@
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      font-size: 8.5pt;
+      font-size: 8.4pt;
       color: #475569;
     }
     .contact-item {
       display: inline-flex;
       align-items: center;
-      gap: 4px;
+      gap: 3px;
     }
     .section {
-      margin-bottom: 14px;
+      margin-bottom: 10px;
     }
     .section-title {
-      font-size: 9.8pt;
+      font-size: 9.5pt;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.6px;
       color: #0f172a;
       border-bottom: 1px solid #cbd5e1;
-      padding-bottom: 3px;
-      margin-bottom: 8px;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+      break-after: avoid;
+      page-break-after: avoid;
     }
     .summary-text {
-      font-size: 9pt;
-      color: #334155;
-      line-height: 1.48;
-      text-align: justify;
-      margin-bottom: 6px;
-    }
-    .summary-bullets {
-      list-style-type: square;
-      padding-left: 16px;
       font-size: 8.8pt;
       color: #334155;
-      line-height: 1.45;
-    }
-    .summary-bullets li {
-      margin-bottom: 4px;
+      line-height: 1.42;
+      text-align: justify;
     }
     .competency-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 5px 16px;
-      font-size: 8.6pt;
+      gap: 3px 14px;
+      font-size: 8.4pt;
+      break-inside: avoid;
+      page-break-inside: avoid;
     }
     .competency-item {
-      line-height: 1.38;
+      line-height: 1.34;
     }
     .competency-item strong {
       color: #0f172a;
@@ -114,41 +107,43 @@
       color: #334155;
     }
     .job {
-      margin-bottom: 12px;
+      margin-bottom: 9px;
+      break-inside: avoid;
       page-break-inside: avoid;
     }
     .job-header {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 2px;
+      margin-bottom: 1px;
+      break-after: avoid;
+      page-break-after: avoid;
     }
     .job-company-role {
-      font-size: 9.5pt;
+      font-size: 9.2pt;
       font-weight: 700;
       color: #0f172a;
     }
     .job-meta {
-      font-size: 8.4pt;
+      font-size: 8.3pt;
       color: #64748b;
       white-space: nowrap;
     }
     .job-subhead {
-      font-size: 8.4pt;
+      font-size: 8.3pt;
       font-weight: 600;
       color: #0369a1;
-      margin-bottom: 4px;
+      margin-bottom: 3px;
     }
     .job-bullets {
       list-style-type: square;
-      padding-left: 15px;
-      margin-bottom: 3px;
+      padding-left: 14px;
     }
     .job-bullets li {
-      font-size: 8.6pt;
+      font-size: 8.5pt;
       color: #334155;
-      margin-bottom: 3px;
-      line-height: 1.42;
+      margin-bottom: 2px;
+      line-height: 1.38;
     }
     .job-bullets strong {
       color: #0f172a;
@@ -156,20 +151,21 @@
     .oss-table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 8.4pt;
-      margin-top: 4px;
+      font-size: 8.3pt;
+      margin-top: 3px;
+      break-inside: avoid;
       page-break-inside: avoid;
     }
     .oss-table th {
       background: #f1f5f9;
       color: #0f172a;
       text-align: left;
-      padding: 4px 8px;
+      padding: 3px 7px;
       border: 1px solid #cbd5e1;
       font-weight: 600;
     }
     .oss-table td {
-      padding: 4px 8px;
+      padding: 3px 7px;
       border: 1px solid #e2e8f0;
       color: #334155;
     }
@@ -177,25 +173,26 @@
       background: #f8fafc;
     }
     .edu-item {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
+      break-inside: avoid;
       page-break-inside: avoid;
     }
     .edu-header {
       display: flex;
       justify-content: space-between;
-      font-size: 9pt;
+      font-size: 8.8pt;
       font-weight: 700;
       color: #0f172a;
     }
     .edu-meta {
-      font-size: 8.4pt;
+      font-size: 8.3pt;
       color: #64748b;
     }
     .edu-desc {
-      font-size: 8.5pt;
+      font-size: 8.4pt;
       color: #334155;
       margin-top: 1px;
-      line-height: 1.38;
+      line-height: 1.35;
     }
   </style>
 </head>
@@ -205,123 +202,155 @@
   <header class="header">
     <div class="name-title">
       <div class="name">Arafat Zahan</div>
-      <div class="title">Curriculum Vitae — Comprehensive Career Dossier</div>
+      <div class="title">Senior Software Engineer & Systems Architect</div>
     </div>
     <div class="contact-bar">
-      <span class="contact-item">📍 Savar, Dhaka, Bangladesh (UTC+6)</span>
-      <span class="contact-item">📧 <a href="mailto:kuasha420@gmail.com">kuasha420@gmail.com</a></span>
-      <span class="contact-item">📞 +880 1841 832 034</span>
-      <span class="contact-item">🌐 <a href="https://kuasha.xyz">kuasha.xyz</a></span>
-      <span class="contact-item">🐙 <a href="https://github.com/kuasha420">github.com/kuasha420</a></span>
-      <span class="contact-item">💼 <a href="https://kuasha420.github.io">kuasha420.github.io</a></span>
-      <span class="contact-item">📦 <a href="https://www.npmjs.com/~kuasha420">npm/@kuasha420</a></span>
+      <span class="contact-item">Savar, Dhaka, Bangladesh (UTC+6)</span>
+      <span class="contact-item">•</span>
+      <span class="contact-item">kuasha420@gmail.com</span>
+      <span class="contact-item">•</span>
+      <span class="contact-item">+880 1841 832 034</span>
+      <span class="contact-item">•</span>
+      <span class="contact-item"><a href="https://kuasha.xyz">kuasha.xyz</a></span>
+      <span class="contact-item">•</span>
+      <span class="contact-item"><a href="https://github.com/kuasha420">github.com/kuasha420</a></span>
+      <span class="contact-item">•</span>
+      <span class="contact-item"><a href="https://www.npmjs.com/~kuasha420">npmjs.com/~kuasha420</a></span>
     </div>
   </header>
 
   <!-- PROFESSIONAL SUMMARY -->
   <section class="section">
-    <h2 class="section-title">1. Professional Summary & Systems Philosophy</h2>
+    <h2 class="section-title">Professional Summary</h2>
     <p class="summary-text">
-      Principal Systems Architect, Full-Stack Engineer, and Founding Technologist with 10+ years of end-to-end engineering experience spanning Google-scale web applications, distributed real-time media streaming platforms, physical clinic establishment, cross-platform mobile apps, and open-source developer tooling. Operates without artificial boundaries between software architecture, infrastructure, developer experience, and physical operations.
+      Senior Software Engineer and Systems Architect with 6+ years of professional engineering experience (building software since 2012). Proven track record leading engineering on software powering 3M+ active production websites, architecting distributed media streaming pipelines, and developing full-stack clinical healthcare platforms. Core technical expertise across TypeScript, React, Next.js, Node.js microservices, PostgreSQL, and Linux infrastructure.
     </p>
-    <ul class="summary-bullets">
-      <li><strong>Google Site Kit Core Contributor (via 10up):</strong> Partnered directly with Google engineering leadership as dedicated technical lead; authored approved design documents and merged <strong>236 pull requests</strong> directly into Google's upstream repository powering <strong>3M+ production websites</strong>.</li>
-      <li><strong>Jasper Dual-Engine Architecture:</strong> Architected a high-resilience media streaming daemon solving YouTube 403 Forbidden errors and stream dropouts via <code>yt-dlp</code> and <code>FFmpeg</code>, coupled with <strong>Hosted Jasper</strong>—a logically multi-tenant SaaS control plane for zero-token community onboarding.</li>
-      <li><strong>Healthcare Startup Execution (Purrfect Universe):</strong> Co-founded <strong>Motion Mechanics Physiotherapy & Rehabilitation Hub</strong> on CRP Road in Savar; directed commercial lease, physical clinic buildout, medical equipment procurement, and clinical team staffing, while engineering its complete paperless clinical operations platform (<code>mm-website</code>) with Next.js 15, Turborepo, tRPC, and PostgreSQL.</li>
-      <li><strong>Global Open-Source Footprint:</strong> Published and maintained React Native Paper libraries with <strong>~7,000+ monthly downloads</strong> on npm, official Arch Linux (AUR) packages, and Linux kernel hardware input interceptors for toddlers (<code>jimha</code>).</li>
-    </ul>
   </section>
 
-  <!-- TECHNICAL ARSENAL -->
+  <!-- TECHNICAL COMPETENCIES -->
   <section class="section">
-    <h2 class="section-title">2. Technical Arsenal & Architectural Competencies</h2>
+    <h2 class="section-title">Technical Competencies</h2>
     <div class="competency-grid">
       <div class="competency-item">
         <strong>Languages & Runtimes:</strong>
-        <span>TypeScript, JavaScript (ESNext, Node.js), Python, PHP, Rust, Shell/Bash, C/C++, SQL</span>
+        <span>TypeScript, JavaScript (ESNext, Node.js), Python, PHP, Shell/Bash, SQL</span>
       </div>
       <div class="competency-item">
         <strong>Frontend & Web Platform:</strong>
-        <span>React (18/19), Next.js 15 (App Router, Server Components, SSR), Turborepo, Tailwind CSS</span>
+        <span>React (18/19), Next.js (15/16 App Router, Server Components), Turborepo, Tailwind CSS</span>
       </div>
       <div class="competency-item">
         <strong>Mobile & Cross-Platform:</strong>
-        <span>React Native, Expo, React Native Paper, React Navigation, Native Bridges</span>
+        <span>React Native, Expo, React Native Paper, React Navigation, Native Android Bridges</span>
       </div>
       <div class="competency-item">
-        <strong>Type-Safe API Contracts:</strong>
-        <span>tRPC (end-to-end type safety), TanStack Query (React Query), TanStack Table & Virtual</span>
+        <strong>Type-Safe Contracts:</strong>
+        <span>tRPC (end-to-end type safety), TanStack Query, TanStack Table & Virtual</span>
       </div>
       <div class="competency-item">
-        <strong>Backend & Distributed Systems:</strong>
-        <span>Node.js (Fastify, Express), Hexagonal Architecture (DomainPorts), Transactional Outbox Pattern</span>
+        <strong>Backend Architecture:</strong>
+        <span>Node.js (Fastify, Express), Hexagonal Architecture, Transactional Outbox Pattern</span>
       </div>
       <div class="competency-item">
-        <strong>Concurrency & Scale:</strong>
-        <span>Distributed Sharding, Concurrency Leases, Multi-Tenant Control Planes, Graceful Drains</span>
+        <strong>Distributed Systems:</strong>
+        <span>Concurrency Leases, Distributed Worker Sharding, Multi-Tenant Control Planes</span>
       </div>
       <div class="competency-item">
         <strong>Databases & Persistence:</strong>
-        <span>PostgreSQL, MySQL, Prisma ORM, Redis (leases, pub/sub), Checksum-tracked Migrations, SQLite</span>
+        <span>PostgreSQL, Prisma ORM, Drizzle ORM, Redis (caching, leases), Checksum Migrations, SQLite</span>
       </div>
       <div class="competency-item">
-        <strong>Audio & Media Pipelines:</strong>
-        <span>Externalized Streaming Daemons, <code>yt-dlp</code>, <code>FFmpeg</code> Transcoding, PipeWire 8kHz PCM</span>
+        <strong>Linux & DevOps:</strong>
+        <span>Arch Linux, systemd daemons, PipeWire, Docker, GitHub Actions CI/CD, Google Cloud Platform</span>
       </div>
       <div class="competency-item">
-        <strong>Linux Systems & Fabrics:</strong>
-        <span>Arch Linux, Wayland, KDE Plasma 6, Virtual Displays, KRDP streaming, systemd, evdev, QEMU/KVM</span>
+        <strong>Testing & Quality:</strong>
+        <span>Jest, React Testing Library, PHPUnit, Playwright, BackstopJS Visual Regression Testing</span>
       </div>
       <div class="competency-item">
-        <strong>Testing, Quality & CI/CD:</strong>
-        <span>Jest, React Testing Library, PHPUnit, Playwright, BackstopJS VRT, Docker, GitHub Actions, GCP</span>
+        <strong>Spoken Languages:</strong>
+        <span>English (Professional working proficiency), Bengali (Native)</span>
       </div>
     </div>
   </section>
 
   <!-- PROFESSIONAL EXPERIENCE -->
   <section class="section">
-    <h2 class="section-title">3. Comprehensive Professional Experience</h2>
+    <h2 class="section-title">Professional Experience</h2>
 
-    <!-- PURRFECT UNIVERSE / PSL -->
+    <!-- PURRFECT SOFTWARE LIMITED -->
     <div class="job">
       <div class="job-header">
-        <span class="job-company-role">Purrfect Universe & Purrfect Software Limited (PSL)</span>
-        <span class="job-meta">Savar, Dhaka, Bangladesh | 2024 – Present</span>
+        <span class="job-company-role">Purrfect Software Limited</span>
+        <span class="job-meta">Remote / Dhaka, Bangladesh | Jan 2024 – Present</span>
       </div>
-      <div class="job-subhead">Principal Systems Architect, Co-Founder & Head of Tech/Operations</div>
+      <div class="job-subhead">Co-Founder & Head of Engineering</div>
       <ul class="job-bullets">
         <li>
-          <strong>Jasper Media Platform & Hosted Jasper SaaS (<code>sakibtamim/Jasper</code>):</strong>
-          Architected dual-engine architecture for high-concurrency Discord audio streaming. Conquered YouTube anti-bot protections and 403 Forbidden errors by creating an externalized streaming daemon utilizing <code>yt-dlp</code> and <code>FFmpeg</code>. Invented "One Mind, Many Bodies" architecture with Automatic Feline Rotation (AFR), allowing dynamic token cycling across multiple bot workers.
+          <strong>Jasper Media Platform (<code>sakibtamim/Jasper</code>):</strong>
+          Architected a resilient distributed audio streaming pipeline utilizing an externalized <code>yt-dlp</code> and <code>FFmpeg</code> daemon, eliminating stream dropouts and 403 throttling errors; implemented automated worker failover and concurrency lease coordination across voice channels.
         </li>
         <li>
           <strong>Hosted Jasper SaaS Control Plane:</strong>
-          Engineered logically multi-tenant SaaS control plane for zero-token community onboarding. Implemented distributed worker sharding (<code>HJ-OSS-11</code>), per-guild concurrency leases (<code>HJ-OSS-04</code>), gateway intent isolation (<code>HJ-OSS-03</code>), interactive Next.js web client with synchronized audio seek bar (<code>apps/web</code>), typed Plugin SDK (<code>HJ-OSS-10</code>, <code>HJ-OSS-12</code>), and checksum-tracked PostgreSQL migrations (<code>HJ-OSS-07</code>).
+          Designed a logically multi-tenant SaaS control plane allowing community Discord servers to self-onboard with zero DevOps configuration. Engineered per-guild concurrency leases, distributed worker sharding, gateway intent isolation, and graceful worker drain contracts for zero-interruption deployments.
         </li>
         <li>
-          <strong>Motion Mechanics Physiotherapy & Rehabilitation Hub (Purrfect Universe Planet):</strong>
-          Co-founded an outpatient physical rehabilitation clinic on CRP Road in Savar. Directed commercial lease negotiations, clinical space buildout, specialized medical hardware procurement, and clinical team staffing across Neurology, MSK, and Paediatrics.
-        </li>
-        <li>
-          <strong>mm-website Clinical Platform:</strong>
-          Architected proprietary clinic platform with Next.js 15, Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS. Built custom Google Cloud Platform re-auth wrappers and automated secrets deployment.
-        </li>
-        <li>
-          <strong>Sunshine Physio Universal App (PSL Client Project):</strong>
-          Delivered fully managed client system (<code>sunshine-physio-universalapp</code>): universal clinical triage and scheduling platform across Next.js and React Native / Expo with bilingual support (English/Bengali).
+          <strong>Web Client & Plugin Ecosystem:</strong>
+          Built interactive Next.js web player (<code>apps/web</code>) with synchronized seek bars and track scrubbing, backed by a typed Plugin SDK and checksum-tracked PostgreSQL migrations.
         </li>
         <li>
           <strong>Pawthy Secrets CLI (<code>@psl-oss/pawthy</code>):</strong>
-          Authored and open-sourced zero-trust developer secret synchronization CLI adopted across internal repositories. Built with hexagonal architecture (DomainPorts), transactional outbox pattern, Fastify REST backend, and Discord approval workflows.
+          Authored and open-sourced zero-trust developer secret synchronization CLI adopted across team repositories. Built with hexagonal architecture, transactional outbox pattern, Fastify REST APIs, and Discord interactive approval webhooks.
         </li>
         <li>
-          <strong>Knot Mesh & Linux Systems (<code>kuasha420/knot-mesh</code>):</strong>
-          Architected distributed multi-node Linux/Wayland workspace mesh connecting Arch Linux desktop, laptop, and Steam Deck via KRDP virtual monitor streaming, remote PTY execution, and Linda Tuplespace batching.
+          <strong>Client Architecture Oversight:</strong>
+          Provided technical leadership and architectural reviews for high-concurrency client download accelerators and commercial retail platforms.
+        </li>
+      </ul>
+    </div>
+
+    <!-- MOTION MECHANICS -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company-role">Motion Mechanics Physiotherapy & Rehabilitation Hub</span>
+        <span class="job-meta">Savar, Dhaka, Bangladesh | Jan 2024 – Present</span>
+      </div>
+      <div class="job-subhead">Co-Founder (Operations & Technology)</div>
+      <ul class="job-bullets">
+        <li>
+          <strong>Clinic Launch & Physical Operations:</strong>
+          Co-founded an outpatient physical rehabilitation clinic on CRP Road in Savar. Managed commercial lease negotiations, clinical space buildout, specialized medical hardware procurement (traction units, electrotherapy, treatment plinths), and clinical team staffing across Neurology, MSK, and Paediatrics.
         </li>
         <li>
-          <strong>Technical Direction & Client Delivery Oversight:</strong>
-          Provided architectural leadership for Purrfect Download Manager (PDM concurrency design) and commercial client delivery for Karnaphuli Jewellery and Dream Emirates Suites.
+          <strong><code>mm-website</code> Clinical Platform:</strong>
+          Architected and implemented full-stack clinical operations and patient scheduling platform using Next.js 15, Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS.
+        </li>
+        <li>
+          <strong>Cloud Infrastructure:</strong>
+          Engineered custom Google Cloud Platform service account re-authentication wrappers and automated secrets deployment.
+        </li>
+      </ul>
+    </div>
+
+    <!-- CLIENT PROJECTS & LINUX SYSTEMS -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company-role">Client Projects & Linux Systems</span>
+        <span class="job-meta">Remote / Savar, Dhaka | Jan 2024 – Present</span>
+      </div>
+      <div class="job-subhead">Lead Frontend Engineer & Systems Architect</div>
+      <ul class="job-bullets">
+        <li>
+          <strong>Sunshine Physio Platform (<code>purrfectsoft/sunshine-physio-webapp</code>):</strong>
+          Lead Frontend Engineer on active client engagement. Architecting clinical triage workflows and appointment scheduling across Next.js 16 web and React Native / Expo mobile with bilingual localization (English/Bengali).
+        </li>
+        <li>
+          <strong>Knot Mesh Linux Workspace (<code>kuasha420/knot-mesh</code>):</strong>
+          Distributed multi-node Linux/Wayland workspace mesh connecting Arch Linux desktop, laptop, and Steam Deck via KRDP virtual display streaming, remote PTY execution, and automated batching.
+        </li>
+        <li>
+          <strong>Qualcomm 4G LTE Linux Modem Daemon (<code>mislty</code>):</strong>
+          Reverse-engineered Linux desktop daemon for Qualcomm MDM9600 modems with PipeWire 8kHz narrowband cellular voice bridge native to baseband hardware.
         </li>
       </ul>
     </div>
@@ -330,29 +359,33 @@
     <div class="job">
       <div class="job-header">
         <span class="job-company-role">10up</span>
-        <span class="job-meta">Remote (Global) | Aug 16, 2021 – Sep 11, 2024</span>
+        <span class="job-meta">Remote (Global) | Aug 2021 – Sep 2024</span>
       </div>
-      <div class="job-subhead">Senior JavaScript Engineer (React / Full-Stack) — Dedicated Google Site Kit Lead</div>
+      <div class="job-subhead">Senior JavaScript Engineer (React / Full-Stack) — Google Site Kit Lead</div>
       <ul class="job-bullets">
         <li>
-          <strong>Google Site Kit Core Technical Lead (<code>google/site-kit-wp</code>):</strong>
-          Recruited directly on GitHub by 10up Head of Engineering. Partnered directly with Google engineering leadership on Google’s official WordPress plugin active on <strong>3M+ production websites worldwide</strong>. Merged <strong>236 production pull requests</strong> across Google Analytics 4, Reader Revenue Manager, AdSense, and Search Console.
+          <strong>Core Google Partnership:</strong>
+          Partnered directly with Google engineering leadership on <strong>Site Kit by Google</strong> (<code>google/site-kit-wp</code>), Google’s official WordPress plugin active on <strong>3,000,000+ production websites</strong>.
         </li>
         <li>
-          <strong>Site Kit: User Input v2 Design Document (Authored):</strong>
-          Approved by Felix Arntz (Google Tech Lead) and Mariya Moeva (Google Lead PM). Overhauled user goal-alignment questionnaire, local state persistence, asynchronous datastore syncing, inline editing, and personalized Key Metrics dashboard integration.
+          <strong>Pull Request Authoring:</strong>
+          Authored <strong>236 merged pull requests</strong> in Google's upstream repository across Google Analytics 4 (GA4), Reader Revenue Manager, AdSense, and Search Console.
         </li>
         <li>
-          <strong>Site Kit: Ad Blocking Recovery (ABR) Design Document (Authored):</strong>
-          Approved by Mariya Moeva (Google Lead PM) and Evan Mattson (10up AD of Engineering). Architectural specification and rollout of AdSense ABR tags, automated snippet injection, publisher message creation, and BackstopJS Visual Regression Testing.
+          <strong>Site Kit: User Input v2 Design Document:</strong>
+          Authored technical design document approved by Felix Arntz (Tech Lead, Google), Mariya Moeva (Lead PM, Google), and Evan Mattson (Associate Director of Engineering, 10up). Engineered local state persistence, asynchronous datastore syncing, inline editing, and Key Metrics dashboard integration.
+        </li>
+        <li>
+          <strong>Site Kit: Ad Blocking Recovery (ABR) Design Document:</strong>
+          Authored technical design document approved by Google PM and 10up engineering leadership. Specified and implemented AdSense ABR tags, automated snippet injection, publisher messaging, and BackstopJS Visual Regression Testing.
         </li>
         <li>
           <strong>Existing Tags Simplification (ETS) Epic:</strong>
           Unified tag detection and validation across GA4, Tag Manager, and AdSense using decoupled store factories (<code>createExistingTagStore</code>).
         </li>
         <li>
-          <strong>Process Innovation & Awards:</strong>
-          Created team-wide <strong>"Mid-Point Review"</strong> process officially adopted across 10up's Site Kit workflow to minimize PR churn. Awarded the <strong>10up Summit "Uppie" Award</strong> (Reykjavik, Iceland, 2023) for engineering excellence. Appointed orientation buddy/mentor for incoming Site Kit software engineers. Co-authored internal 10up TypeScript Training curriculum.
+          <strong>Process Innovation & Recognition:</strong>
+          Created team-wide "Mid-Point Review" process officially adopted across 10up's Site Kit workflow to minimize PR churn. Awarded the <strong>10up Summit "Uppie" Award</strong> (Reykjavik, Iceland, May 2023) for engineering excellence. Appointed technical orientation buddy for incoming software engineers.
         </li>
       </ul>
     </div>
@@ -366,20 +399,24 @@
       <div class="job-subhead">JavaScript Engineer (React Native & Node.js) / Founder (Aladdin Studios)</div>
       <ul class="job-bullets">
         <li>
-          <strong>28 Production Repositories Engineered:</strong>
-          Directed hands-on architecture across healthtech, matrimony, enterprise management systems, and media streaming platforms.
+          <strong>Priyojon Care Telemedicine Suite:</strong>
+          Engineered complete telemedicine platform connecting patients with verified medical doctors for real-time video consultations, electronic prescription delivery, and home healthcare provider dispatch across React Native mobile apps and Node.js REST APIs.
         </li>
         <li>
-          <strong>Priyojon Care Telemedicine Platform:</strong>
-          Engineered telemedicine ecosystem connecting patients with verified doctors for real-time video consultations, prescription delivery, and home healthcare provider dispatch across React Native mobile clients and Node.js REST APIs.
+          <strong>Farazi Homecare:</strong>
+          Built medical homecare mobile client for on-demand nursing and physiotherapy dispatch.
         </li>
         <li>
-          <strong>Farazi Homecare & Bismillah Matrimonial:</strong>
-          Built medical homecare mobile dispatch app and cross-platform matchmaking application with biometric authentication and profile discovery.
+          <strong>Bismillah Matrimonial:</strong>
+          Developed cross-platform mobile matchmaking application with biometric authentication and candidate search.
         </li>
         <li>
-          <strong>Enterprise Software & Media Streaming:</strong>
-          Engineered frontends and APIs for <code>starnet</code> (ISP subscriber management), <code>irent</code> (property accounting), <code>ibos-erp</code>, <code>iBOSCRM</code>, and <code>ibotuber</code> media streaming suite (authored 212 commits).
+          <strong>Enterprise Management Platforms:</strong>
+          Developed frontend and API services for <code>starnet</code> (ISP management), <code>irent</code> (property accounting), and <code>iBOSCRM</code>.
+        </li>
+        <li>
+          <strong>IboTuber Media Suite:</strong>
+          Video distribution platform with adaptive bitrate streaming.
         </li>
       </ul>
     </div>
@@ -393,19 +430,19 @@
       <div class="job-subhead">Junior Instructor, Department of Computer Technology</div>
       <ul class="job-bullets">
         <li>Instructed polytechnic diploma students in C/C++, JavaScript, PHP, relational database design, and computer networking.</li>
-        <li>Supervised practical laboratories on operating system administration, network routing protocols, and microcomputer hardware diagnostics.</li>
+        <li>Supervised hands-on laboratory sessions covering operating system administration, network routing protocols, and microcomputer hardware diagnostics.</li>
       </ul>
     </div>
 
-    <!-- EARLY FREELANCE -->
+    <!-- EARLY SOFTWARE DEVELOPMENT -->
     <div class="job">
       <div class="job-header">
-        <span class="job-company-role">Early Engineering & Freelance Systems</span>
+        <span class="job-company-role">Early Software Development & Freelance</span>
         <span class="job-meta">Savar, Dhaka, Bangladesh | 2012 – 2017</span>
       </div>
       <div class="job-subhead">Software Developer & Linux Systems Administrator</div>
       <ul class="job-bullets">
-        <li>Published open-source WordPress plugins (<code>country-state-dropdown-plugin</code> in 2014) to WordPress Plugin Repository.</li>
+        <li>Developed custom open-source WordPress plugins (<code>country-state-dropdown-plugin</code> in 2014) published to WordPress Plugin Repository.</li>
         <li>Engineered raw PHP B2B licensing platforms (<code>namm-b2b-license-delivery</code>) with cryptographic key generation and validation.</li>
         <li>Built early hybrid mobile applications using Apache Cordova, PhoneGap, and Crosswalk Project (<code>TUFFLA</code>, <code>PageDab</code>). Managed bare-metal Linux servers and LAMP/LEMP stacks.</li>
       </ul>
@@ -414,7 +451,7 @@
 
   <!-- OPEN SOURCE LIBRARIES -->
   <section class="section">
-    <h2 class="section-title">4. Published Open-Source Libraries & Community Impact</h2>
+    <h2 class="section-title">Published Open-Source Libraries (~7.5k Monthly npm Downloads)</h2>
     <table class="oss-table">
       <thead>
         <tr>
@@ -429,7 +466,7 @@
           <td><strong>react-native-paper-phone-number-input</strong></td>
           <td>npm package</td>
           <td>~4,100 / mo</td>
-          <td>High-performance international phone number input with search modal and flag picker for React Native Paper.</td>
+          <td>International phone number input with search modal and flag picker for React Native Paper.</td>
         </tr>
         <tr>
           <td><strong>react-native-paper-toast</strong></td>
@@ -458,28 +495,28 @@
         <tr>
           <td><strong>react-native-template-ts-plus</strong></td>
           <td>GitHub / npm</td>
-          <td>Production starter</td>
+          <td>Starter</td>
           <td>Opinionated TypeScript starter template for React Native with navigation, state, and UI pre-wired.</td>
         </tr>
         <tr>
           <td><strong>antigravity-manager-bin</strong></td>
           <td>Arch Linux AUR</td>
           <td>AUR package</td>
-          <td>Official Arch User Repository package build maintainer for Antigravity desktop tools.</td>
+          <td>AUR package maintainer for Antigravity desktop tools.</td>
         </tr>
         <tr>
           <td><strong>jimha</strong></td>
           <td>GitHub (Python)</td>
           <td>Linux evdev</td>
-          <td>Fullscreen tactile game intercepting raw hardware input via Linux evdev to protect host OS while entertaining toddlers.</td>
+          <td>Linux evdev input interceptor for child hardware isolation.</td>
         </tr>
       </tbody>
     </table>
   </section>
 
-  <!-- EDUCATION & CERTIFICATIONS -->
+  <!-- EDUCATION & TECHNICAL TRAINING -->
   <section class="section">
-    <h2 class="section-title">5. Education & Professional Certifications</h2>
+    <h2 class="section-title">Education & Professional Technical Training</h2>
     <div class="edu-item">
       <div class="edu-header">
         <span>Diploma in Computer Technology (4-Year Engineering Diploma)</span>
@@ -495,28 +532,26 @@
         <span class="edu-meta">European University of Bangladesh | 6 of 10 Semesters Completed</span>
       </div>
       <div class="edu-desc">
-        Completed core CS coursework (Data Structures, Algorithms, Advanced Programming). Stepped back to support spouse's CSE graduation through pregnancy and motherhood, and care for child JimHa.
+        Completed core CS coursework (Data Structures, Algorithms, Advanced Programming). Paused studies to prioritize full-time software engineering and family commitments.
       </div>
     </div>
     <div class="edu-item">
       <div class="edu-header">
-        <span>Red Hat Certified Engineer (RHCE) & Cisco Certified Network Associate (CCNA)</span>
-        <span class="edu-meta">IT Bangla Limited | Conferred 2017 & 2018</span>
+        <span>Professional Systems & Network Training (RHCE & CCNA Curriculum)</span>
+        <span class="edu-meta">IT Bangla Limited | 2017 – 2018</span>
       </div>
       <div class="edu-desc">
-        Enterprise Linux administration (systemd, security policies, storage, server hardening) and enterprise networking (routing, switching, TCP/IP stack).
+        Intensive training covering Red Hat Enterprise Linux system administration, storage, security policies, and Cisco routing & switching architecture.
       </div>
     </div>
   </section>
 
-  <!-- HONORS, AWARDS & CULTURE -->
+  <!-- HONORS & INTERESTS -->
   <section class="section">
-    <h2 class="section-title">6. Honors, Awards & Personal Horizon</h2>
+    <h2 class="section-title">Honors & Interests</h2>
     <div class="summary-text">
-      <strong>10up Summit Uppie Award (Reykjavik, Iceland, 2023):</strong> Awarded for outstanding engineering excellence and technical contributions on the Google Site Kit project.<br>
-      <strong>Google Engineering Design Docs:</strong> Directly credited author of two canonical technical design documents approved by Google engineering leadership.<br>
-      <strong>Feline Culture:</strong> Devoted pet parent to four cats; inspired the engineering naming of Purrfect Universe, Purrfect Software Limited, Jasper Music Platform, Purr Engine, Pawthy CLI, and Mislty.<br>
-      <strong>The Horizon (ChickenTech):</strong> Long-term trajectory to develop ChickenTech—a modern, free-range automated precision agriculture farm deploying edge sensors, microclimates, and solar monitoring.
+      <strong>Honors:</strong> Recipient of the <strong>10up Summit "Uppie" Award</strong> (Reykjavik, Iceland, May 2023) for engineering excellence on Google Site Kit.<br>
+      <strong>Interests:</strong> Linux systems, tactile hardware interfaces, agricultural automation.
     </div>
   </section>
 

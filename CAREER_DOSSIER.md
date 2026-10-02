@@ -10,176 +10,138 @@
 
 * **Full Name:** Arafat Zahan
 * **Location:** Savar, Dhaka, Bangladesh (Local Time: UTC+6)
-* **Email:** `kuasha420@gmail.com` | `arafatzahan2018@gmail.com`
+* **Email:** `kuasha420@gmail.com`
 * **Phone / WhatsApp:** `+880 1841 832 034`
 * **Profiles:** [GitHub (@kuasha420)](https://github.com/kuasha420) | [Personal Site (kuasha.xyz)](https://kuasha.xyz) | [Portfolio (kuasha420.github.io)](https://kuasha420.github.io)
 * **Organizations:** `purrfectsoft`, `aladdinstudios`
-* **Verified Senior Role:** Senior JavaScript Engineer (React / Full-Stack / Node.js)
+* **Professional Experience:** 6+ years professional software engineering, building software since 2012
+* **Spoken Languages:** English (Professional working proficiency), Bengali (Native)
 
 ---
 
-## 2. Education & Professional Certifications (The Honest Truth)
+## 2. Education & Professional Technical Training
 
 * **Savar Digital Polytechnic Institute, Dhaka**
   * **Qualification:** Diploma in Computer Technology (4-Year Engineering Diploma)
   * **Tenure:** August 2013 – December 2017
   * **Status:** **Graduated / Conferred (2017)**
-  * *Accredited technical diploma covering computer hardware, electronics, operating systems, and foundational software engineering.*
+  * *Accredited technical diploma covering computer hardware, electronics, operating systems, networking, and foundational software engineering.*
 
 * **European University of Bangladesh, Dhaka**
   * **Program:** B.Sc. in Computer Science & Engineering (for Diploma Holders)
   * **Coursework Completed:** **6 of 10 Semesters Completed** (Core CS, Data Structures, Algorithms, Advanced Programming)
-  * **Status:** **Dropped out**
-  * *First paused at 5 semesters due to intense industry demands at Star IT; resumed at 10up to complete a 6th semester. Was preparing for the 7th semester alongside his wife Rehola, but deliberately stepped back to support her CSE degree continuation through pregnancy and motherhood without interruption, and to welcome their child JimHa.*
+  * **Status:** Paused / Dropped out
+  * *Coursework completed; paused studies to prioritize full-time software engineering delivery and family commitments.*
 
-* **Industry Certifications:**
-  * **Red Hat Certified Engineer (RHCE)** — IT Bangla Limited (May 2018 – August 2018)
-    * *Enterprise Linux administration, systemd, networking, security policies, storage, and server hardening.*
-  * **Cisco Certified Network Associate (CCNA)** — IT Bangla Limited (August 2017 – October 2017)
-    * *Routing, switching, subnetting, TCP/IP stack, and network architecture.*
+* **Professional Systems & Network Training:**
+  * **Red Hat Certified Engineer (RHCE) Curriculum** — IT Bangla Limited (May 2018 – August 2018)
+    * *Enterprise Linux administration, systemd service management, advanced networking, security policies, storage volumes, and server hardening.*
+  * **Cisco Certified Network Associate (CCNA) Curriculum** — IT Bangla Limited (August 2017 – October 2017)
+    * *Routing protocols (OSPF, EIGRP), switching, subnetting, TCP/IP stack, VLANs, and network architecture.*
 
 ---
 
-## 3. Career Timeline & Verified Technical Impact
+## 3. Career Timeline & Technical Impact
 
-### A. The 10up Era & Google Partnership (August 16, 2021 – September 11, 2024)
-* **Role:** Senior JavaScript Engineer (React / Full-Stack)
-* **Primary Mandate:** Dedicated engineering partnership on **Site Kit by Google** (`google/site-kit-wp`), Google’s official WordPress plugin active on **millions of production websites worldwide**.
-* **Direct Recruitment:** Recruited directly on GitHub by 10up Head of Engineering (Taylor Lovett) due to high-quality open-source WordPress and JavaScript contributions.
-* **Empirical Scale:** **243 Pull Requests submitted, 236 Merged directly into Google’s repository.**
+### A. The 10up Era & Google Partnership (August 2021 – September 2024)
+* **Role:** Senior JavaScript Engineer (React / Full-Stack) — Google Site Kit Lead
+* **Primary Mandate:** Dedicated engineering partnership on **Site Kit by Google** (`google/site-kit-wp`), Google’s official WordPress plugin active on **3,000,000+ production websites**.
+* **Direct Recruitment:** Recruited directly on GitHub by 10up Head of Engineering (Taylor Lovett) following open-source contributions.
+* **Empirical Scale:** **Authored 236 merged pull requests in Google's upstream repository** across Google Analytics 4 (GA4), Reader Revenue Manager, AdSense, and Search Console.
 
-#### Canonical Design Documents (Authored by Arafat Zahan):
+#### Canonical Technical Design Documents (Authored by Arafat Zahan):
 1. **Site Kit: User Input v2 Design**
    * *Approvers:* Felix Arntz (Staff Developer Relations Engineer & Tech Lead, Google), Evan Mattson (Associate Director of Engineering, 10up), Mariya Moeva (Lead Product Manager, Google).
-   * *Scope:* Complete redesign and architectural overhaul of Site Kit's user goal-alignment questionnaire; engineered local state persistence, asynchronous datastore syncing, inline question editing, and personalized Key Metrics dashboard integration.
+   * *Scope:* Complete architectural overhaul of Site Kit's user goal-alignment questionnaire; engineered local state persistence, asynchronous datastore syncing, inline question editing, and personalized Key Metrics dashboard integration.
 2. **Site Kit: Ad Blocking Recovery (ABR) Design**
-   * *Approvers:* Mariya Moeva (Lead PM, Google), Evan Mattson (AD of Engineering, 10up).
-   * *Scope:* Architectural specification and implementation for AdSense Ad Blocking Recovery tags; automated recovery tag injection, publisher message creation workflows, permission checks, and Visual Regression Testing (VRT).
+   * *Approvers:* Mariya Moeva (Lead Product Manager, Google), Evan Mattson (Associate Director of Engineering, 10up).
+   * *Scope:* Architectural specification and implementation for AdSense Ad Blocking Recovery tags; automated recovery tag snippet injection, publisher message creation workflows, permission validation, and BackstopJS Visual Regression Testing (VRT).
 3. **Existing Tags Simplification (ETS) Epic:**
    * Unified tag detection and validation across Google Analytics (UA/GA4), Tag Manager, and AdSense.
    * Decoupled tag parsing into reusable store factories (`createExistingTagStore`).
-   * **Process Innovation:** Created the team-wide **"Mid-Point Review"** and asynchronous Slack checkpoints officially adopted across 10up's Site Kit engineering workflow.
 
-#### Recognition, Awards & Discipline Leadership:
-* **10up Summit "Uppie" Award Winner (Reykjavik, Iceland, 2023):** Recognized for engineering excellence on Google Site Kit.
-* **Orientation Buddy & Mentor:** Appointed technical orientation buddy for newly onboarded Google Site Kit engineers (e.g. Nahid, Maciej).
-* **Discipline Contributions:** Co-authored internal 10up TypeScript Training curriculum with Nicholas André; delivered technical presentations on CSS Modules to the JavaScript engineering discipline.
-* **Peer & Lead Reviews (from Official Reviews):**
-  * *"Arafat is an out-of-the-box thinker. His recent ownership of the Ad Blocking Recovery epic was fantastic. He is responsible and dependable."*
-  * *"His lead work on the Ad Blocking Recovery epic was great. The design doc was concise and made our job in QA much easier with the level of thought that went into it."*
-  * *"He never settles for 'good enough' though is pragmatic and able to identify when we should take on technical debt to ship features quickly and outline how we can pay off said debt later."*
+#### Leadership, Process & Honors:
+* **Process Innovation:** Created the team-wide **"Mid-Point Review"** process and asynchronous Slack checkpoints officially adopted across 10up's Site Kit engineering workflow to eliminate late-stage architectural surprises and minimize PR churn.
+* **10up Summit "Uppie" Award Winner (Reykjavik, Iceland, May 2023):** Recognized for engineering excellence on Google Site Kit.
+* **Orientation Buddy & Mentor:** Appointed technical orientation buddy for incoming Site Kit software engineers.
+* **Discipline Contributions:** Co-authored internal 10up TypeScript Training curriculum with Nicholas André; delivered engineering presentations on CSS Modules to the JavaScript engineering discipline.
 
 ---
 
-### B. Post-10up Era: Systems Architecture, HealthTech & Ventures (2024 – Present, 2026)
+### B. Post-10up Era: Systems Architecture, HealthTech & Ventures (2024 – Present)
 
-#### 1. Jasper Music Bot & Platform (`sakibtamim/Jasper`)
-* **Role:** Lead Architect & Primary Author
-* **Scale:** **695 commits authored by Arafat out of 744 total (93.4% of entire codebase)**
-* **Timeline:** November 2025 – Present (October 2026)
-* **Architecture:**
-  * High-resilience Discord audio streaming engine themed after a big black Persian cat.
-  * Engineered externalized audio pipeline using `yt-dlp` and `FFmpeg` to bypass YouTube anti-bot protections and 403 Forbidden errors.
-  * Distributed engine: Implemented runtime identity, sharding, health monitoring, and graceful drain contracts (`HJ-OSS-11`).
-  * Concurrency: Per-guild AFR (Audio Frame Rate) leases and multi-guild concurrent playback (`HJ-OSS-04`), isolating gateway intents from worker event loops (`HJ-OSS-03`).
-  * Web Dashboard: Built interactive Next.js player with real-time audio seek bar, track scrubber, and state sync (`apps/web`).
-  * Extensibility & Data: Versioned Plugin SDK (`HJ-OSS-10`, `HJ-OSS-12`), drag-and-drop sortable queue plugin (`jasper-plugin-garage-band`), and checksum-tracked PostgreSQL migrations (`HJ-OSS-07`).
+#### 1. Purrfect Software Limited — Co-Founder & Head of Engineering
+* **Jasper Media Platform (`sakibtamim/Jasper`):**
+  * Architected a resilient distributed audio streaming pipeline utilizing an externalized `yt-dlp` and `FFmpeg` daemon, eliminating stream dropouts and 403 throttling errors.
+  * Designed worker coordination and failover architecture, enabling bot instances to stream across multiple voice channels concurrently under a unified controller.
+  * Engineered per-guild concurrency leases, distributed worker sharding, gateway intent isolation, and graceful worker drain contracts for zero-interruption deployments.
+  * Built interactive Next.js web application (`apps/web`) with synchronized seek bars and track scrubbing, backed by a typed Plugin SDK and checksum-tracked PostgreSQL migrations.
+  * Designed Hosted Jasper: a logically multi-tenant SaaS control plane allowing community Discord servers to self-onboard with zero DevOps configuration.
+* **Pawthy Secrets CLI (`@psl-oss/pawthy`):**
+  * Authored and open-sourced zero-trust developer secret synchronization CLI adopted across team repositories.
+  * Implemented hexagonal architecture with typed domain ports, transactional outbox pattern, Fastify REST APIs, and Discord interactive approval webhooks.
+* **Client Architecture Oversight:**
+  * Provided technical direction and architectural review for Purrfect Download Manager (high-concurrency download accelerator) and commercial client systems for Karnaphuli Jewellery and Dream Emirates Suites.
 
-#### 2. Purrmission & Pawthy CLI (`kuasha420/purrmission`)
-* **Role:** Creator & Maintainer
-* **Scale:** **462 commits authored by Arafat out of 491 total (94.1%)**
-* **Architecture:**
-  * **Pawthy CLI (`@psl-oss/pawthy` / `@kuasha420/pawthy`):** Zero-trust developer environment secrets synchronization CLI adopted across every repository at PSL and Motion Mechanics.
-  * Hexagonal architecture with DomainPorts, transactional outbox pattern with idempotent state machines, Fastify REST APIs, Discord approval gates, and Passkey/WebAuthn research.
+#### 2. Motion Mechanics Physiotherapy & Rehabilitation Hub — Co-Founder (Operations & Technology)
+* **Physical Clinic Launch & Operations:**
+  * Co-founded an outpatient physical rehabilitation clinic located on CRP Road in Savar, Dhaka.
+  * Managed commercial lease negotiations, clinical space buildout, specialized medical hardware procurement (traction units, electrotherapy, treatment plinths), and clinical team staffing across Neurology, Musculoskeletal (MSK), and Paediatric rehabilitation.
+* **`mm-website` Clinical Platform:**
+  * Architected and implemented a full-stack clinical operations and patient scheduling platform using Next.js 15 (App Router), Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack Query, and Tailwind CSS.
+  * Implemented custom Google Cloud Platform service account re-authentication wrappers and automated secrets deployment.
 
-#### 3. Motion Mechanics: Physical Clinic (A Purrfect Universe Planet)
-* **Physical Business:** Co-founded and operated **Motion Mechanics Physiotherapy and Rehabilitation Hub**—a planet of Purrfect Universe on CRP Road in Savar, Dhaka. Managed lease negotiations, clinical space buildout, specialized treatment plinth procurement, clinical staffing (Neurology, MSK, Paediatrics), and daily financial reconciliation.
-* **`mm-website` (614 commits authored by Arafat / 52.4%):** Proprietary full-stack clinical operations and patient booking platform built with Next.js 15 (App Router), Turborepo, tRPC, Prisma ORM, PostgreSQL, TanStack React Query, and Tailwind CSS. Built custom GCP re-auth wrappers and automated secrets synchronization.
-
-#### 4. Managed Client Projects & Software Delivery (Purrfect Software Limited)
-* **Sunshine Physio Platform (`sunshine-physio-universalapp`):** Fully managed client project delivered by PSL. Built a universal clinical care and patient engagement platform across Next.js 15 and React Native / Expo, featuring pain triage workflows, high-concurrency booking, and bilingual ICU localization (English/Bengali) (138 commits authored by Arafat / 59.7%).
-* **Purrfect Download Manager (PDM):** Product vision & architecture oversight (Hands-on code authored by Nazmus Sakib Tamim / 78 commits).
-* **Karnaphuli Jewellery & Dream Emirates Suites:** Technical director / client delivery oversight (Code authored by engineering team: Mamun, Saleh Shakib, Rahat).
-* **PSL Website:** Core monorepo tooling & architecture (29 commits by Arafat; frontends by team).
-
-#### 5. Knot Mesh & Linux Systems Craftsmanship (`kuasha420/knot-mesh` & `purr`)
-* **Knot Mesh (178 commits authored by Arafat / 85.2%):** Distributed multi-node workspace mesh connecting Arch Linux / KDE Plasma 6 Wayland desktop, laptop, and Steam Deck. Implements Wayland Virtual Monitor fabric via KDE Connect and KRDP remote desktop streaming, HiDPI spatial scaling, and PTY remote execution.
-* **Purr Universal App Engine (109 commits authored by Arafat / 94.0%):** Universal application discovery, container hardening (Waydroid/LXC), and priority package installer for Arch Linux.
-* **`mislty`:** Reverse-engineered Linux desktop suite & daemon for Qualcomm MDM9600 4G LTE modems with PipeWire 8kHz PCM audio bridge.
-
-#### 5. Calibrated Oversight on PSL / Client Repos (Role Clarification):
-* **Purrfect Download Manager (PDM):** Product Vision & Architecture Oversight (Hands-on code authored by Nazmus Sakib Tamim / 78 commits).
-* **Karnaphuli Jewellery & Dream Emirates Suites:** Technical Director / Client Delivery Oversight (Code authored by engineering team: Mamun, Saleh Shakib, Rahat).
-* **PSL Website:** Core tooling & architecture (29 commits by Arafat; frontends by team).
+#### 3. Client Systems & Linux Infrastructure Projects
+* **Sunshine Physio Platform (`purrfectsoft/sunshine-physio-webapp`):**
+  * Lead Frontend Engineer (Web & Mobile) on active client project.
+  * Architecting clinical triage workflows and appointment scheduling across Next.js 16 web and React Native / Expo mobile with bilingual localization (English/Bengali).
+* **Knot Mesh & Linux Systems (`kuasha420/knot-mesh`):**
+  * Distributed multi-node Linux/Wayland workspace mesh connecting Arch Linux desktop, laptop, and Steam Deck via KRDP virtual monitors, remote PTY execution, and Linda Tuplespace batching.
+  * `purr`: Universal application discovery and LXC container isolation daemon for Arch Linux.
+  * `mislty`: Reverse-engineered Linux desktop daemon for Qualcomm MDM9600 4G LTE modems with PipeWire 8kHz narrowband cellular voice bridge native to baseband hardware.
 
 ---
 
-### C. Pre-10up Era: Star IT, Aladdin Studios & Open-Source Rise (2012 – 2021)
+### C. Pre-10up Era: Star IT, Aladdin Studios & Instruction (2018 – 2021)
 
-#### 1. Star IT Limited / Aladdin Studios (Feb 2020 – Aug 2021)
+#### 1. Star IT Limited & Aladdin Studios (February 2020 – August 2021)
 * **Role:** JavaScript Engineer (React Native & Node.js) / Founder (Aladdin Studios)
-* **Footprint:** Directed and engineered **28 production repositories**, including:
-  * **Priyojon Care Telemedicine Suite** (`priyojon-app`, `priyojon-serviceapp`, `priyojon-firebase`): Remote doctor consultations, patient booking, home healthcare dispatch.
-  * **Farazi Homecare** (`farazihomecare`): Medical homecare mobile client.
-  * **Matrimonial Platform** (`bismillah-marriage-app`, `bismillah-marriage-api`): Production mobile matchmaking app.
-  * **Enterprise Software:** `starnet`, `irent-backend`/`irent-frontend`, `ibos-erp`, `iBOSCRM`.
-  * **Media Streaming Suite:** `ibotuber`, `ibotuber-app`, `ibotuber-api` (212 commits authored by Arafat).
+* **Scope:** Directed engineering across production repositories spanning telemedicine, matrimony, enterprise management, and media streaming:
+  * **Priyojon Care Telemedicine Suite** (`priyojon-app`, `priyojon-serviceapp`, `priyojon-firebase`): Real-time doctor consultations, electronic prescription delivery, and home healthcare provider dispatch across React Native mobile clients and Node.js REST APIs.
+  * **Farazi Homecare** (`farazihomecare`): Medical homecare mobile client for on-demand nursing and physiotherapy dispatch.
+  * **Bismillah Matrimonial** (`bismillah-marriage-app`, `bismillah-marriage-api`): Cross-platform mobile matchmaking application with biometric authentication and candidate search.
+  * **Enterprise Software:** Developed frontend and API services for `starnet` (ISP management), `irent` (property accounting), and `iBOSCRM`.
+  * **IboTuber Media Suite:** Video distribution platform with adaptive bitrate streaming.
 
-#### 2. Academic Instruction: Savar Digital Polytechnic Institute (Apr 2018 – Feb 2020)
+#### 2. Savar Digital Polytechnic Institute (April 2018 – February 2020)
 * **Role:** Junior Instructor, Department of Computer Technology
-* **Scope:** Taught programming (C/C++, JavaScript, PHP), networking fundamentals, and database systems to polytechnic engineering students.
+* **Scope:** Lectured polytechnic diploma students in C/C++, JavaScript, PHP, database schema design, and computer networking. Supervised hands-on laboratory sessions covering operating systems and network routing.
 
-#### 3. Early Freelance & Hybrid Mobile (2012 – 2017)
-* Developed custom WordPress plugins (`country-state-dropdown-plugin` in 2014), raw PHP platforms (`namm-b2b-license-delivery`), and Cordova/Crosswalk mobile apps (`TUFFLA`, `PageDab`).
-
----
-
-## 4. Published Open-Source Libraries (Global npm Impact)
-
-Active, production open-source libraries created and maintained by Arafat Zahan:
-
-| Package | Monthly Downloads | Commits / Ownership | Description |
-| :--- | :--- | :--- | :--- |
-| **`react-native-paper-phone-number-input`** | **~4,100 / mo** | 57 commits (89.1%) | Performant Material Design phone number input with emoji flag picker for React Native Paper |
-| **`react-native-paper-toast`** | **~2,140 / mo** | 25 commits (73.5%) | Persistent toast implementation hook and provider for React Native Paper |
-| **`react-native-immersive-bars`** | **~570 / mo** | Contributor / Maintainer | React Native component for transparent Android navigation bars |
-| **`react-native-paper-alerts`** | **~520 / mo** | 15 commits (88.2%) | Imperative cross-platform Material alert and prompt dialogs for React Native (iOS, Android, Web) |
-| **`mst-persistent-store`** | **~240 / mo** | 71 commits (95.9%) | MobX-State-Tree persistent storage provider and consumer hook |
-| **`react-native-template-ts-plus`** | Active template | 127 commits (88.8%) | Opinionated, feature-packed TypeScript starter template for React Native |
-| **`complex-query-builder`** | Developer utility | 100% | Strongly-typed JavaScript equivalent of PHP’s `http_build_query` |
-| **`antigravity-manager-bin`** | Official AUR | Maintainer | Arch User Repository package build for Antigravity desktop tools |
+#### 3. Early Software Development & Freelance (2012 – 2017)
+* Started exploring Linux kernels, Bash scripting, and open-source web technologies in 2012.
+* Developed custom open-source WordPress plugins (`country-state-dropdown-plugin` in 2014) published to the WordPress Plugin Repository.
+* Built raw PHP B2B licensing platforms (`namm-b2b-license-delivery`) with cryptographic key generation and validation.
+* Built early hybrid mobile applications using Apache Cordova, PhoneGap, and Crosswalk Project (`TUFFLA`, `PageDab`). Managed bare-metal Linux servers and LAMP/LEMP stacks.
 
 ---
 
-## 5. The Personal & Human Dimension
+## 4. Published Open-Source Libraries (~7.5k Monthly npm Downloads)
 
-* **Family & Fatherhood:**
-  * Married to **Rehola Khatun** (April 2019).
-  * Father to **JimHa** (welcomed in 2025).
-  * **Engineering for Family:** Built **`jimha`** (open-source toddler-safe tactile key smash wonderland in Python/KDE) to let his child explore hardware without OS destruction; created childproof lock daemons on Steam Deck.
-* **The Four Cats & "Purrfect" Culture:**
-  * Devoted pet parent to four beloved cats (including Misty). Famous for cat cameos on 10up Zoom calls (*"Positively adore the cat invasions during meetings!"*).
-  * Feline inspiration across engineering: **Purrfect Universe**, **Purrfect Software Limited**, **Jasper Music Bot** (black Persian cat), **`purr`** (Bengal leopard cat engine), **Pawthy CLI** (paw-themed secrets sync), and **`mislty`** (Qualcomm modem daemon named after Misty).
-* **Expeditions & Travels:**
-  * **Reykjavik, Iceland (May 2023):** 10up Global Summit; team celebration and Uppie Award in person.
-  * **The Maldives (February 2025):** 6th wedding anniversary and "babymoon" in Hulhumalé and Maafushi Island before the arrival of JimHa.
-  * **Sajek Valley & Savar:** Cloud valley expeditions and community roots on CRP Road.
-  * **Rover Scouts:** Early scouting background building civic service, resilience, and teamwork.
-* **Hobbies:** Bare-metal Linux tweaking (Arch / KDE Wayland), OpenCore Hackintoshes, QEMU/KVM GPU passthrough, EA SPORTS Cricket 07 modding, gaming on Steam Deck.
+| Library / Tool | Registry | Monthly Usage | Description |
+| :--- | :--- | :---: | :--- |
+| **[`react-native-paper-phone-number-input`](https://www.npmjs.com/package/react-native-paper-phone-number-input)** | npm package | ~4,100 / mo | High-performance international phone number input with search modal and flag picker for React Native Paper. |
+| **[`react-native-paper-toast`](https://www.npmjs.com/package/react-native-paper-toast)** | npm package | ~2,140 / mo | Imperative toast notifications component, provider, and custom hook for React Native Paper. |
+| **[`react-native-immersive-bars`](https://www.npmjs.com/package/react-native-immersive-bars)** | npm package | ~570 / mo | Android navigation bar transparency component for immersive edge-to-edge layouts. |
+| **[`react-native-paper-alerts`](https://www.npmjs.com/package/react-native-paper-alerts)** | npm package | ~520 / mo | Cross-platform imperative alert and confirm modal dialogs for React Native (iOS, Android, Web). |
+| **[`mst-persistent-store`](https://www.npmjs.com/package/mst-persistent-store)** | npm package | ~240 / mo | Persistent MobX-State-Tree store provider and custom consumer hooks for React and React Native. |
+| **[`react-native-template-ts-plus`](https://github.com/kuasha420/react-native-template-ts-plus)** | GitHub / npm | Production starter | Opinionated TypeScript starter template for React Native with navigation, state, and UI pre-wired. |
+| **[`antigravity-manager-bin`](https://aur.archlinux.org)** | Arch Linux AUR | AUR package | AUR package maintainer for Antigravity desktop tools. |
+| **[`jimha`](https://github.com/kuasha420/jimha)** | GitHub (Python) | Linux evdev | Linux evdev input interceptor for child hardware isolation. |
 
 ---
 
-## 6. Strategic Positioning for Upcoming CV Generation
+## 5. Interests & Community Leadership
 
-When we generate your tailored CVs, here is how each component will serve you:
-
-1. **Targeting Senior / Staff Full-Stack or Web Platform Roles:**
-   * Lead with Google Site Kit (236 merged PRs, approved design docs, scale to millions of users).
-   * Back up with Jasper (resilient distributed audio streaming, sharding, Next.js player) and Purrmission/Pawthy (hexagonal architecture, zero-trust secrets).
-2. **Targeting Mobile / Cross-Platform Roles:**
-   * Lead with published React Native Paper libraries (7,000+ monthly downloads).
-   * Showcase full-stack production mobile apps from Priyojon Care to Sunshine Physio.
-3. **Targeting Founding Engineer / Startup Tech Lead Roles:**
-   * Highlight end-to-end execution: founding and operating a physical rehabilitation clinic while building the entire paperless software platform, managing teams, and owning systems from hardware to UI.
-4. **Education Framing:**
-   * Clean, transparent listing of Conferred 4-Year Diploma (2017), RHCE & CCNA certifications, and 6 semesters of core CS coursework (dropped out to prioritize high-velocity production delivery and family).
+* **Honors:** 10up Summit "Uppie" Award Winner (Reykjavik, Iceland, May 2023) for engineering excellence on Google Site Kit.
+* **Civic Leadership:** Rover Scout active leadership, crisis response, and community teamwork.
+* **Interests:** Linux systems, tactile hardware interfaces, precision agriculture automation.
